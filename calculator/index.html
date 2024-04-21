@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="face">
+    <input id="display" readonly>
+    <div id="keys">
+        <button onclick="Clear()">C</button>
+        <button onclick="Appender('/')">/</button>
+        <button onclick="Appender('*')">*</button>
+        <button onclick="Appender('.')">.</button>
+        <button onclick="Appender('7')">7</button>
+        <button onclick="Appender('8')">8</button>
+        <button onclick="Appender('9')">9</button>
+        <button onclick="Appender('-')">-</button>
+        <button onclick="Appender('4')">4</button>
+        <button onclick="Appender('5')">5</button>
+        <button onclick="Appender('6')">6</button>
+        <button onclick="Appender('+')">+</button>
+        <button onclick="Appender('1')">1</button>
+        <button onclick="Appender('2')">2</button>
+        <button onclick="Appender('3')">3</button>
+        <button onclick="Result()">=</button>
+    </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
